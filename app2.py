@@ -49,7 +49,7 @@ def get_sentiment(tweet, analyzer):
 def get_mock_crypto_tweets(count=50):
     tweets_data = []
     now = datetime.now()
-    tokens = ['BTC', 'ETH', 'SOL', 'AVAX', 'ADA', 'DOT']
+    tokens = ['BTC', 'ETH', 'SOL', 'AVAX', 'ADA', 'DOT','yey', 'hg','swc','ron','jup','tot','jto','grs']
     
     for i in range(count):
         tweet_content = f"{random.choice(tokens)} is trending! Should I buy more?"
